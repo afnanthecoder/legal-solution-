@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+    <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
 
     <!-- Tailwind and daisyui  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -12,8 +13,8 @@
       tailwind.config = {
         theme: {
           extend: {
-            colors: {
-              clifford: '#da373d',
+            Backgroundcolors: {
+              
               bg-color: '#B68C5A',
             }
           }
@@ -23,20 +24,31 @@
     
     <!-- Font awesome  -->
     <script src="https://kit.fontawesome.com/bcc90d8592.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    
-    <header>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+.font-garamond{
+  font-family: 'EB Garamond', serif;
+}
+</style>
+  
+  </head>
+<body class="font-garamond">
+   
+  <header>
         
 
-<nav>
+<nav class="max-w-screen-3xl mx-auto lg:px-24">
     <div class="navbar bg-base-100 p-8">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabindex="0" class="menu text-xl menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Cases</a></li>
@@ -47,7 +59,7 @@
           <img class="w-1/2" src="./images/logo2.png" alt="">
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+          <ul class="menu menu-horizontal px-1 text-xl">
             <li><a>Home</a></li>
             <li><a>Services</a></li>
             <li><a>Cases</a></li>
@@ -56,13 +68,128 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn rounded-lg gap-2 text-xs">Free Consultation</a>
+          <a class="btn  text-white bg-[#B68C5A] rounded-lg gap-2 text-xs">Free Consultation</a>
         </div>
       </div>
 </nav>
+<section class="max-w-screen-3xl mx-auto lg:px-24 h-auto">
+  <div class="my-auto mx-auto lg:w-[1170px] lg:h-[550px]  bg-cover bg-center" style="background-image: url(./images/banner.png);">
+    <div class="  text-center py-28 space-y-6">
+      <h1 class="text-2xl md:text-3xl lg:text-5xl text-white font-extrabold">We Provide Effective <br> Legal Solutions</h1>
+      <p class="text-xs lg:text-xl text-white">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+      <div class="lg:space-x-6 space-y-4  p-10">
+        <input class="rounded-lg lg:w-[500px] lg:h-[64px] lg:text-xl p-3" type="text" placeholder="Search Your Services" />
+      <button class="btn bg-[#B68C5A] rounded-lg lg:w-[150px] lg:h-[64px] btn-primary text-white">Search</button>
+      </div>
+    </div>
+  </div>
+
     </header>
     <main>
+    </section>
+    <section class="max-w-screen-3xl mx-auto lg:px-24">
+      <div class="items-center text-center p-20 space-y-3 ">
+  <h1 class="text-4xl font-extrabold">The Legal Practice Area</h1>
+  <p class="text-xl"> There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+      </div>
+      </section>
+      <section class="max-w-screen-3xl mx-auto  lg:px-24" >
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid cols-1 ">
+             <div class=" p-3  w-[400px] h-[300px]  space-y-6  ">
+              <div class=" text-center ">
+              <img class="px-40" src="./images/business.png" alt="">
+              <h1 class="text-2xl font-extrabold">Business Law</h1>
+              <p class=""> There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form,<br> by injected humour.</p>
+              <img class="px-40" src="./collected/Frame.svg" alt="">
+              </div>
+            </div>
+             <div class=" p-3   w-[400px] h-[300px] bg-slate-200 border 1px solid #E7E7E7; shadow-black space-y-6">
+              <div class=" text-center ">
+              <img class="px-40" src="./images/criminal.png" alt="">
+              <h1 class="text-2xl font-extrabold">Criminal Law</h1>
+              <p class=""> There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form,<br> by injected humour.</p>
+              <img class="px-40" src="./collected/Frame.svg" alt="">
+              </div>
+            </div>
+             <div class=" p-3  w-[400px] h-[300px]  space-y-3 ">
+              <div class=" text-center ">
+              <img class="px-40" src="./images/education.png" alt="">
+              <h1 class="text-2xl font-extrabold">Education Law</h1>
+              <p class=""> There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form,<br> by injected humour.</p>
+              <img class="px-40" src="./collected/Frame.svg" alt="">
+              </div>
+            </div>
+             <div class=" p-3  w-[400px] h-[300px] border-t 1px solid #E7E7E7; shadow-black space-y-3 ">
+              <div class=" text-center ">
+              <img class="px-40" src="./images/divorce.png" alt="">
+              <h1 class="text-2xl font-extrabold">Divorce Law </h1>
+              <p class=""> There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form,<br> by injected humour.</p>
+              <img class="px-40" src="./collected/Frame.svg" alt="">
+              </div>
+            </div>
+             <div class=" p-3  w-[400px] h-[300px] border 1px solid #E7E7E7; shadow-black space-y-3 ">
+              <div class=" text-center ">
+              <img class="px-40" src="./images/business.png" alt="">
+              <h1 class="text-2xl font-extrabold">Tax Law</h1>
+              <p class=""> There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form,<br> by injected humour.</p>
+              <img class="px-40" src="./collected/Frame.svg" alt="">
+              </div>
+            </div>
+             <div class=" p-3  w-[400px] h-[300px] border-t 1px solid #E7E7E7; shadow-black space-y-3  ">
+              <div class=" text-center ">
+              <img class="px-40" src="./images/child.png" alt="">
+              <h1 class="text-2xl font-extrabold">Child Law</h1>
+              <p class=""> There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form,<br> by injected humour.</p>
+              <img class="px-40" src="./collected/Frame.svg" alt="">
+              </div>
+            </div>
 
+
+        </div>
+
+      </section>
+
+
+
+      <!-- FAQ Section  -->
+      <section class=" max-w-screen-3xl mx-auto lg:px-24">
+        <div class="flex gap-6 py-20">
+        <div class="flex-1 space-y-6">
+          <div class="collapse collapse-plus bg-base-200  ">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">
+              Are application fee waivers available?
+            </div>
+            <div class="collapse-content"> 
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+              Are application fee waivers available?
+            </div>
+            <div class="collapse-content"> 
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+              Are application fee waivers available?
+            </div>
+            <div class="collapse-content"> 
+              <p>hello</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-1">
+          <img class="w-[500px] h-[500px]" src="./images/faq.png" alt="">
+        </div>
+      </div>
+      </section>
+      
     </main>
     <footer></footer>
 </body>
